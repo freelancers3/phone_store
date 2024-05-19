@@ -6,35 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Phone Store</title>
-    <style>
-        /* h1{
-            color: rebeccapurple;
-        } */
-     /* .heading {
-    color: rgb(255, 0, 140);
-} */
-/* #para1{
-    font-size: 24px;
-    font-family: 'Trebuchet MS';
-} */
-/* p{
-    font-size: 24px;
-    font-family: 'Trebuchet MS';
-} */
-    </style>
- </head>
+</head>
 <body>
-    <!-- 
-        <h1 style="color: yellow;" >
-        Welcome to our mobile store </h1> 
-    -->
-  <h1 class="heading" >Welcome to our mobile store </h1>
-    <p id="para1" >You are in our phone store</p>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#phones">Phones</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to our Phone Store</h1>
+            <p>Explore our latest phones and accessories.</p>
+            <button>Animate Logo</button>
+        </section>
+        <section>
+            <h2>Phones</h2>
+            <img src="images/mobile.png" alt="Mobile Phone">
+            <p>Check out our latest mobile phones with top-notch features.</p>
+        </section>
+        <section>
+            <h2>Accessories</h2>
+            <img src="images/battery.png" alt="Battery">
+            <img src="images/camera.png" alt="Camera">
+            <p>Enhance your experience with our high-quality accessories.</p>
+        </section>
+        <section>
+            <h2>Your Cart</h2>
+            <div>&#x1F6D2;</div> <!-- Unicode shopping cart icon -->
+            <p>Your selected items will appear here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Phone Store. All rights reserved.</p>
+    </footer>
 
-    <p>Here is a test</p>
-    <!-- <script>
-        console.log("Hello from the client side");
-    </script> -->
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
